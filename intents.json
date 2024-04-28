@@ -1,0 +1,353 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Care about",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "I want to learn more about the product.",
+        "I need detailed information about the product.",
+        "I'm interested in this product; can you assist me?",
+        "I'd like to further evaluate this product.",
+        "I want to explore this product.",
+        "I'm considering this product.",
+        "Tell me more about this specific product.",
+        "I'm researching this product.",
+        "What information do you have about this product?",
+        "Please provide me with more details about the product."
+      ],
+      "responses": [
+        "Here is a brief introduction to each of your products:\n1.Milk Coffee: A rich coffee flavor combined with smooth milk.\n2.White Coffee: Pure white coffee with a bitter and aromatic taste.\n3.Phin Coffee: Traditional coffee brewed using a phin filter, offering a unique and aromatic flavor.\n4.Irish Coffee: The perfect blend of coffee, whiskey, and fresh cream, creating a special treat.\n5.Latte: A coffee variation with frothy milk on top, creating a silky layer on the cup.\n6.Fresh Coffee Black: Fresh, bold coffee with no added sugar.\n7.Fresh Coffee Matcha: Combines fresh coffee with the delightful aroma of matcha.\n8.Fresh Coffee Brown: A delicious blend of fresh coffee and the aroma of chocolate.\n9.Mocha: Blends the delightful taste of coffee with sweet chocolate.\n .Don't know which products you are interested in?"
+      ]
+    },
+    {
+      "tag": "Milk Coffee",
+      "patterns": [
+        "Milk Coffee",
+        "I want to learn about Milk Coffee.",
+        "I'm interested in the product Milk Coffee.",
+        "Could you provide more information about Milk Coffee?",
+        "Please give me details about Milk Coffee.",
+        "I'd like to know about the flavor of Milk Coffee.",
+        "Is there any information about the product Milk Coffee?",
+        "I'm interested in Milk Coffee; can you help me learn more?",
+        "I need to know more about Milk Coffee.",
+        "What's special about Milk Coffee?",
+        "I want to learn more about the milk coffee product."
+      ],
+      "responses": [
+        "Discover our indulgent Milk Coffee, a symphony of flavors that combines rich coffee with the velvety embrace of creamy milk. This exquisite blend offers a harmonious balance of bitterness and creaminess, creating a truly satisfying coffee experience. Priced at just 15.99 USD, it's the perfect choice for those who appreciate the magic that happens when coffee and milk come together."
+      ]
+    },
+    {
+      "tag": "Price Milk Coffee",
+      "patterns": [
+        "What is the price of Milk Coffee?",
+        "Can you tell me the price of the Milk Coffee product?",
+        "Please provide information about the price of Milk Coffee.",
+        "I'm interested in the price of Milk Coffee. Can you let me know?",
+        "Do you have information about the price of the milk coffee?"
+      ],
+      "responses": [
+        "The price of the product is $15.99. If you are interested in the product, please come to the store at the address: \"So 8 Quang Trung\" to enjoy it."
+      ]
+    },
+    {
+      "tag": "White Coffee",
+      "patterns": [
+        "White Coffee",
+        "I'm interested in the White Coffee product.",
+        "I'd like to learn more about White Coffee.",
+        "Can you provide information about White Coffee?",
+        "I'm curious about White Coffee. Could you assist me?",
+        "What can you tell me about White Coffee?",
+        "I want to know more about White Coffee.",
+        "Do you have details on the White Coffee product?",
+        "I'm considering White Coffee; can you give me more information?",
+        "Please tell me about White Coffee.",
+        "I'd like to explore the White Coffee product."
+      ],
+      "responses": [
+        "\"White Coffee\" is a special type of coffee with a crisp, pure, and robust flavor. It has the characteristic bitter aroma of coffee, with precision and smoothness. \"White Coffee\" is the perfect choice for those who appreciate the natural bitterness of coffee without any added ingredients."
+      ]
+    },
+    {
+      "tag": "Price White Coffee",
+      "patterns": [
+        "What is the price of the White Coffee product?",
+        "Could you provide information about the price of White Coffee?",
+        "Please tell me the cost of White Coffee.",
+        "I'm interested in the price of White Coffee. Can you let me know?",
+        "Do you have details on the price of the white coffee?"
+      ],
+      "responses": [
+        "The price of the product is $15.99. If you are interested in the product, please come to the store at the address: \"So 8 Quang Trung\" to enjoy it."
+      ]
+    },
+    {
+      "tag": "Phin Coffee",
+      "patterns": [
+        "Phin Coffee",
+        "I want to inquire about the Phin Coffee product.",
+        "I'm interested in learning more about Phin Coffee.",
+        "Could you provide information regarding the Phin Coffee product?",
+        "I'm curious about Phin Coffee. Can you assist me with that?",
+        "Tell me about the Phin Coffee product.",
+        "I'd like to know more about Phin Coffee.",
+        "Do you have details on the Phin Coffee product?",
+        "I'm considering Phin Coffee; can you give me more information?",
+        "Please provide me with details about Phin Coffee.",
+        "I'd like to explore the Phin Coffee product."
+      ],
+      "responses": [
+        "\"Phin Coffee\" is a traditional Vietnamese coffee that's brewed using a unique filter called a 'phin.' This method results in a distinct and aromatic coffee flavor that is beloved for its rich and bold taste. The 'phin' filter allows for a slow drip process, which enhances the depth and intensity of the coffee. This coffee is well-known for its strong and robust flavor, making it a favorite choice for those who appreciate the authentic taste of Vietnamese coffee. Whether enjoyed hot or iced, \"Phin Coffee\" is a delightful and aromatic coffee experience that's sure to please coffee enthusiasts."
+      ]
+    },
+    {
+      "tag": "Price Phin Coffee",
+      "patterns": [
+        "What is the price of the Phin Coffee product?",
+        "Could you provide information about the price of Phin Coffee?",
+        "Please tell me the cost of Phin Coffee.",
+        "I'm interested in the price of Phin Coffee. Can you let me know?",
+        "Do you have details on the price of Phin Coffee?"
+      ],
+      "responses": [
+        "The price of the product is $15.99. If you are interested in the product, please come to the store at the address: \"So 8 Quang Trung\" to enjoy it."
+      ]
+    },
+    {
+      "tag": "Irish Coffee",
+      "patterns": [
+        "Irish Coffee",
+        "I'm interested in the Irish Coffee product.",
+        "I'd like to learn more about Irish Coffee.",
+        "Can you provide information about Irish Coffee?",
+        "I'm curious about Irish Coffee. Could you assist me?",
+        "What can you tell me about Irish Coffee?",
+        "I want to know more about Irish Coffee.",
+        "Do you have details on the Irish Coffee product?",
+        "I'm considering Irish Coffee; can you give me more information?",
+        "Please tell me about Irish Coffee.",
+        "I'd like to explore the Irish Coffee product."
+      ],
+      "responses": [
+        "\"Irish Coffee\" is a delightful and warming beverage that harmoniously combines the rich and bold flavor of coffee with the smooth and creamy textures of whiskey and fresh cream. This iconic drink is known for its perfect balance of strong coffee bitterness and the comforting warmth of whiskey. Topped with a layer of freshly whipped cream, it creates a sensory experience that's both aromatic and soothing. \"Irish Coffee\" is a classic choice for those looking to savor the fusion of coffee, whiskey, and cream, making it a favorite for a cozy and enjoyable indulgence."
+      ]
+    },
+    {
+      "tag": "Price Irish Coffee",
+      "patterns": [
+        "What is the price of the Irish Coffee product?",
+        "Could you provide information about the price of Irish Coffee?",
+        "Please tell me the cost of Irish Coffee.",
+        "I'm interested in the price of Irish Coffee. Can you let me know?",
+        "Do you have details on the price of Irish Coffee?"
+      ],
+      "responses": [
+        "The price of the product is $15.99. If you are interested in the product, please come to the store at the address: \"So 8 Quang Trung\" to enjoy it."
+      ]
+    },
+    {
+      "tag": "Latte Coffee",
+      "patterns": [
+        "Latte Coffee",
+        "I'm interested in the Latte Coffee product.",
+        "I'd like to learn more about Latte Coffee.",
+        "Can you provide information about Latte Coffee?",
+        "I'm curious about Latte Coffee. Could you assist me?",
+        "What can you tell me about Latte Coffee?",
+        "I want to know more about Latte Coffee.",
+        "Do you have details on the Latte Coffee product?",
+        "I'm considering Latte Coffee; can you give me more information?",
+        "Please tell me about Latte Coffee.",
+        "I'd like to explore the Latte Coffee product."
+      ],
+      "responses": [
+        "\"Latte\" is a classic coffee beverage that marries a shot of espresso with steamed milk, resulting in a velvety, creamy, and mellow flavor. It is known for its smooth, luxurious texture and the perfect balance between the strong, robust taste of espresso and the soothing, frothy milk. Topped with a layer of microfoam, a well-made Latte is not only a treat for your taste buds but also a work of art in your cup. It's the ideal choice for those who appreciate a harmonious blend of coffee and creamy goodness, making it a beloved option among coffee enthusiasts."
+      ]
+    },
+    {
+      "tag": "Price Latte Coffee",
+      "patterns": [
+        "What is the price of the Latte Coffee product?",
+        "Could you provide information about the price of Latte Coffee?",
+        "Please tell me the cost of Latte Coffee.",
+        "I'm interested in the price of Latte Coffee. Can you let me know?",
+        "Do you have details on the price of Latte Coffee?"
+      ],
+      "responses": [
+        "The price of the product is $15.99. If you are interested in the product, please come to the store at the address: \"So 8 Quang Trung\" to enjoy it."
+      ]
+    },
+    {
+      "tag": "Fresh Coffee Black",
+      "patterns": [
+        "Fresh Coffee Black",
+        "I'm interested in the Fresh Coffee Black product.",
+        "I'd like to learn more about Fresh Coffee Black.",
+        "Can you provide information about Fresh Coffee Black?",
+        "I'm curious about Fresh Coffee Black. Could you assist me?",
+        "What can you tell me about Fresh Coffee Black?",
+        "I want to know more about Fresh Coffee Black.",
+        "Do you have details on the Fresh Coffee Black product?",
+        "I'm considering Fresh Coffee Black; can you give me more information?",
+        "Please tell me about Fresh Coffee Black.",
+        "I'd like to explore the Fresh Coffee Black product."
+      ],
+      "responses": [
+        "\"Fresh Coffee Black\" is a straightforward and bold coffee experience. It's a no-nonsense coffee with a rich, robust flavor and no added sugar. This coffee is known for its pure, unadulterated taste, making it the perfect choice for those who enjoy the natural bitterness and energy boost of black coffee. Whether you prefer it piping hot or over ice, \"Fresh Coffee Black\" provides a bold and invigorating coffee experience that's sure to kickstart your day."
+      ]
+    },
+    {
+      "tag": "Price Fresh Coffee Black",
+      "patterns": [
+        "What is the price of the Fresh Coffee Black product?",
+        "Could you provide information about the price of Fresh Coffee Black?",
+        "Please tell me the cost of Fresh Coffee Black.",
+        "I'm interested in the price of Fresh Coffee Black. Can you let me know?",
+        "Do you have details on the price of Fresh Coffee Black?"
+      ],
+      "responses": [
+        "The price of the product is $15.99. If you are interested in the product, please come to the store at the address: \"So 8 Quang Trung\" to enjoy it."
+      ]
+    },
+    {
+      "tag": "Fresh Coffee Matcha",
+      "patterns": [
+        "I'm interested in the Fresh Coffee Matcha product.",
+        "I'd like to learn more about Fresh Coffee Matcha.",
+        "Can you provide information about Fresh Coffee Matcha?",
+        "I'm curious about Fresh Coffee Matcha. Could you assist me?",
+        "What can you tell me about Fresh Coffee Matcha?",
+        "I want to know more about Fresh Coffee Matcha.",
+        "Do you have details on the Fresh Coffee Matcha product?",
+        "I'm considering Fresh Coffee Matcha; can you give me more information?",
+        "Please tell me about Fresh Coffee Matcha.",
+        "I'd like to explore the Fresh Coffee Matcha product."
+      ],
+      "responses": [
+        "\"Fresh Coffee Matcha\" is a delightful fusion of fresh coffee and the enchanting aroma of matcha green tea. This unique blend offers a harmonious marriage of coffee's boldness and matcha's earthy, soothing flavors. It's known for its invigorating taste and the natural energy boost of coffee, combined with the calm focus of matcha. Whether enjoyed hot or iced, \"Fresh Coffee Matcha\" provides a refreshing and distinctive coffee experience that appeals to those seeking a balance between coffee and the serenity of matcha."
+      ]
+    },
+    {
+      "tag": "Price Fresh Coffee Matcha",
+      "patterns": [
+        "What is the price of the Fresh Coffee Matcha product?",
+        "Could you provide information about the price of Fresh Coffee Matcha?",
+        "Please tell me the cost of Fresh Coffee Matcha.",
+        "I'm interested in the price of Fresh Coffee Matcha. Can you let me know?",
+        "Do you have details on the price of Fresh Coffee Matcha?"
+      ],
+      "responses": [
+        "The price of the product is $15.99. If you are interested in the product, please come to the store at the address: \"So 8 Quang Trung\" to enjoy it."
+      ]
+    },
+    {
+      "tag": "Fresh Coffee Brown",
+      "patterns": [
+        "I'm interested in the Fresh Coffee Brown product.",
+        "I'd like to learn more about Fresh Coffee Brown.",
+        "Can you provide information about Fresh Coffee Brown?",
+        "I'm curious about Fresh Coffee Brown. Could you assist me?",
+        "What can you tell me about Fresh Coffee Brown?",
+        "I want to know more about Fresh Coffee Brown.",
+        "Do you have details on the Fresh Coffee Brown product?",
+        "I'm considering Fresh Coffee Brown; can you give me more information?",
+        "Please tell me about Fresh Coffee Brown.",
+        "I'd like to explore the Fresh Coffee Brown product."
+      ],
+      "responses": [
+        "\"Fresh Coffee Brown\" is a delightful blend of fresh coffee and the rich, comforting taste of chocolate. This unique combination offers a harmonious balance between the boldness of coffee and the sweetness of chocolate, resulting in a satisfying and indulgent coffee experience. It's known for its full-bodied flavor and the comforting richness of cocoa, making it a favorite choice for those who appreciate the fusion of coffee and chocolate in their cup. Whether you prefer it hot or cold, \"Fresh Coffee Brown\" is a delightful and invigorating coffee option that's sure to satisfy your cravings."
+      ]
+    },
+    {
+      "tag": "Price Fresh Coffee Brown",
+      "patterns": [
+        "What is the price of the Fresh Coffee Brown product?",
+        "Could you provide information about the price of Fresh Coffee Brown?",
+        "Please tell me the cost of Fresh Coffee Brown.",
+        "I'm interested in the price of Fresh Coffee Brown. Can you let me know?",
+        "Do you have details on the price of Fresh Coffee Brown?"
+      ],
+      "responses": [
+        "The price of the product is $15.99. If you are interested in the product, please come to the store at the address: \"So 8 Quang Trung\" to enjoy it."
+      ]
+    },
+    {
+      "tag": "Mocha",
+      "patterns": [
+        "I'm interested in the Mocha product.",
+        "I'd like to learn more about Mocha.",
+        "Can you provide information about Mocha?",
+        "I'm curious about Mocha. Could you assist me?",
+        "What can you tell me about Mocha?",
+        "I want to know more about Mocha.",
+        "Do you have details on the Mocha product?",
+        "I'm considering Mocha; can you give me more information?",
+        "Please tell me about Mocha.",
+        "I'd like to explore the Mocha product."
+      ],
+      "responses": [
+        "\"Mocha\" is a delightful coffee creation that seamlessly blends the flavors of coffee and sweet chocolate. This combination results in a perfect balance of bitterness and sweetness, offering a delightful and harmonious taste. Mocha is known for its rich and robust coffee base, complemented by the comforting and sweet notes of chocolate. It's a go-to choice for those who appreciate the intricate interplay of coffee and chocolate in a single cup. Whether enjoyed hot or iced, Mocha provides a delightful and indulgent coffee experience that's sure to satisfy your cravings."
+      ]
+    },
+    {
+      "tag": "Price Fresh Coffee Brown",
+      "patterns": [
+        "What is the price of the Mocha product?",
+        "Could you provide information about the price of Mocha?",
+        "Please tell me the cost of Mocha.",
+        "I'm interested in the price of Mocha. Can you let me know?",
+        "Do you have details on the price of the Mocha product?"
+      ],
+      "responses": [
+        "The price of the product is $15.99. If you are interested in the product, please come to the store at the address: \"So 8 Quang Trung\" to enjoy it."
+      ]
+    }
+  ]
+}
